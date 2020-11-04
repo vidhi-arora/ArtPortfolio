@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> ALERTS AND PROMPTS </title>
+<script>
+function myPrompt(){
+var inputname= prompt("Please enter your name here");
+if(inputname!="")
+document.getElementById("name").innerHTML= "Hello " + inputname + "! How's you?";
+else
+alert("No input provided");
+}
+</script>
+<body>
+<p> Prompt test</p>
+<button onclick="myPrompt()" style="float:right">Click Here</button>
+<p id="name"></p>
+</body>
+</html>
