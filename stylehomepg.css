@@ -95,24 +95,24 @@ background-attachment: scroll;
   .sidenav a {font-size: 18px;}
 }
 .parallax1{
-background: url(images/new1.jpg);
+background: url(new1.jpg);
 min-height: 750px;
 opacity: 0.9;
 }
 .parallax2{
-background: url(images/pex2.jpg);
+background: url(pex2.jpg);
 min-height: 700px;
 }
 .parallax3{
-background: url(images/prx3.jpg);
+background: url(new3.jpg);
 min-height: 650px;
 }
 .parallax4{
-background: url(images/new3.jpg);
+background: url(new3.jpg);
 min-height: 600px;
 }
 .parallax5{
-background: url(images/art.jpg);
+background: url(art.jpg);
 min-height: 800px;
 }
 .parallax2, .parallax3, .parallax4{
