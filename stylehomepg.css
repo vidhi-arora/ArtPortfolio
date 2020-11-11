@@ -95,7 +95,7 @@ background-attachment: scroll;
   .sidenav a {font-size: 18px;}
 }
 .parallax1{
-background: url(new1.jpg);
+background: url('new1.jpg');
 min-height: 750px;
 opacity: 0.9;
 }
