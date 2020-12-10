@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRAFT CORNER</title>
+<link rel="stylesheet" href="stylecraft.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="h1">Craft Corner</div><br>
+<span class="more" onclick="openNav()">&#8285; More</span> <br>
+
+<script>
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "212px";
+	}
+
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	} 
+</script>
+	<a href="https://icons8.com/icon/45330/expand-arrow"></a>
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\HOMEPAGE\home.html"><b>Home</b></a>
+	  <a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\ABOUT\ABOUT.html"><b>About</b></a>
+	  <a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\BLOG\BLOGPAGE.html"><b>Blog</b></a>
+	  <div class="dropdown">
+	  <a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\GALLERY\artgallery.html"><b>Gallery</b> <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 18px; padding-left: 4px;"></i> </a>
+	  <div class="dropdown-content">
+	  <a href="oilpastels.html">Oil Pastels & Pencil Colors</a>
+	  <a href="sketches.html">Sketches</a>
+	  <a href="Acrylicsnew.html">Acrylics & Watercolors</a>
+	  </div>
+	  </div>
+	  <a href="https://www.instagram.com/artcalling_life/" target="_blank" style="padding-right: 12px;"><i style="font-size:24px; color: #f3e5d8;" class="fa" aria-hidden="true">&#xf16d;</i> <b>Instagram</b></a>
+	</div>
+<!-- LIGHTBOX-->
+<div class="row1">
+  <div class="column">
+    <img src="Craft Corner\ganesh-3.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+   <div class="column">
+    <img src="Craft Corner\bottleflowers-1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  
+</div>
+
+<div class="row2">
+<div class="column">
+    <img src="Craft Corner\parrot-3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+   <div class="column">
+    <img src="Craft Corner\black pot-3.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div> 
+  <div class="column">
+    <img src="Craft Corner\birdhs-1.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  
+</div>
+
+<div class="row3">
+  <div class="column">
+    <img src="Craft Corner\minigar-4.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+  <img src="Craft Corner\pot-2.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="Craft Corner\aqrm.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div> 
+</div>
+ <div class="row4">
+  <div class="column">
+    <img src="Craft Corner\Birdhs-3.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 10</div>
+      <img src="Craft Corner\bottleflowers-1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 10</div>
+      <img src="Craft Corner\ganesh-3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 10</div>
+      <img src="Craft Corner\parrot-3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 10</div>
+      <img src="Craft Corner\black pot-3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 10</div>
+      <img src="Craft Corner\birdhs-1.png" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">6 / 10</div>
+      <img src="Craft Corner\birdhouse-2 (1).jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">7 / 10</div>
+      <img src="Craft Corner\pot-2.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">8 / 10</div>
+      <img src="Craft Corner\aqrm.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">9 / 10</div>
+      <img src="Craft Corner\minigar-4.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">10 / 10</div>
+      <img src="Craft Corner\Birdhs-3.jpg" style="width:100%">
+    </div>
+	
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+	<div class="col">
+      <img class="demo cursor" src="Craft Corner\bottleflowers-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Bottle Flowers">
+    </div>
+    <div class="col">
+      <img class="demo cursor" src="Craft Corner\ganesh-3.jpg" style="width:100%" onclick="currentSlide(2)" alt="Lord Ganesha - Using broken CD's">
+    </div>
+    <div class="col">
+      <img class="demo cursor" src="Craft Corner\parrot-3.jpg" style="width:100%" onclick="currentSlide(3)" alt="American Parrot - Using natural flower petals & leaves">
+    </div>
+    <div class="col">
+      <img class="demo cursor" src="Craft Corner\black pot-3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Hand Painted Pot">
+    </div>
+	<div class="col">
+      <img class="demo cursor" src="Craft Corner\birdhs-1.png" style="width:100%" onclick="currentSlide(5)" alt="Birdhouse - Using Coconut shell & Dry grass">
+    </div>
+	<div class="col">
+      <img class="demo cursor" src="Craft Corner\birdhouse-2 (1).jpg" style="width:100%" onclick="currentSlide(6)" alt="Birdhouse - Using Coconut shell & Dry grass">
+    </div>
+	<div class="col">
+      <img class="demo cursor" src="Craft Corner\pot-2.jpg" style="width:100%" onclick="currentSlide(7)" alt="Hand Painted Flower Pot">
+    </div>
+	<div class="col">
+      <img class="demo cursor" src="Craft Corner\aqrm.jpg" style="width:100%" onclick="currentSlide(8)" alt="Mini Aquarium - Using paper & thermocol">
+    </div>
+	<div class="col">
+      <img class="demo cursor" src="Craft Corner\minigar-4.jpg" style="width:100%" onclick="currentSlide(9)" alt="Mini Garden - Using natural plants">
+    </div>
+	<div class="col">
+      <img class="demo cursor" src="Craft Corner\Birdhs-3.jpg" style="width:100%" onclick="currentSlide(10)" alt="Birdhouse - Using cardboard & paper">
+    </div>
+	
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+</body>
+</html>

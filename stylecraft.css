@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Arizonia&family=Bilbo+Swash+Caps&family=Buda:wght@300&family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@500&family=Cormorant+Garamond:wght@500&family=Dancing+Script:wght@500;600&family=Euphoria+Script&family=Fondamento:ital@1&family=Great+Vibes&family=Italianno&family=Kaushan+Script&family=Marck+Script&family=Megrim&family=Montez&family=Niconne&family=Nothing+You+Could+Do&family=Qwigley&family=Tangerine:wght@700&display=swap');
+body{
+background: url(craft-1.jpg);
+opacity: 1;
+position: relative;
+background-attachment: fixed;
+background-position: center;
+background-size: cover; 
+background-repeat: no-repeat;
+height: 860px;
+width: 1470px;
+} 
+.h1{
+letter-spacing: 14px;
+position: absolute;
+padding-bottom: 44px;
+top: 2%;
+left: 70%;
+color: #000000;
+font-style: italic;
+font-size: 68px;
+font-family: 'Tangerine', cursive;
+text-shadow: 0 0 15px #1a0d00;
+}
+.more{
+letter-spacing: 6px;
+left: 2%;
+top: 4%;
+color: rgb(243, 229, 216);
+padding: 7px;
+font-size: 22.5px;
+font-family: 'Julee';
+cursor: pointer;
+position: absolute;
+background-color: rgb(39, 25, 12,0.8);
+border: 2px solid rgb(98, 63, 30);
+border-radius: 5px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(39, 26, 12,0.75);
+  overflow-x: hidden;
+  overflow: auto;
+  transition: 0.4s;
+  padding-top: 110px;
+}
+
+.sidenav a {
+  padding: 20px 10px 20px 0px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  font-family: Ink Free,sans-serif;
+  color: #f3e5d8;
+  text-shadow:  0 0 15px #000000;
+  display: block;
+  transition: 0.05s;
+}
+
+.sidenav a:hover {
+text-shadow: 0 0 12px #f3e5d8;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 35px;
+  right: 25px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  margin-left: 70px;
+}
+.fa{
+padding-top: 120px;
+padding-right: 4px;
+}
+.fa:hover{
+text-shadow: 0 0 20px rgb(39, 24, 12);
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 65px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(231, 202, 177,0.7);
+  max-width: 135px;
+  box-shadow: 0px 8px 16px 0px ,#001a33;
+  z-index: 1;
+  border-radius: 8px;
+  right: 2px;
+}
+.dropdown-content a {
+  color: #4d3319;
+  text-shadow: 0 0 0px #1a0d00;
+  font-weight: bold;
+  padding: 8px 8px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+}
+.dropdown-content a:hover {
+	border-radius: 8px;
+    text-shadow: 0 0 0px #edd9c4;
+	background-color: rgb(243, 229, 216);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* lightbox */
+
+* {
+  box-sizing: border-box;
+}
+.row1{
+padding-top: 80px;
+}
+.row2{
+padding-right: 0px;
+}
+.row1 .column{
+width: 24%;
+}
+.row2 .column{
+width: 20%;
+}
+.row3 .column{
+width: 20%;
+}
+.row4 .column{
+width: 20%;
+}
+.row1 > .column {
+  padding: 8px 8px;
+}
+.row2 > .column {
+  padding: 8px 8px;
+}
+.row3 > .column {
+  padding: 6px 8px;
+}
+.row4 > .column {
+  padding: 0px 8px 18px 8px;
+}
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: right;
+  width: 10%;
+  overflow: hidden;
+}
+.col {
+  float: left;
+  width: 10%;
+}
+.column img {
+  margin-bottom: -4px;
+  border-radius: 9px;
+  box-shadow: 0 4px 8px 0 rgb(39, 24, 12, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.6s ease-out;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 85%;
+  height: 50%;
+  max-width: 700px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 135%;
+  width: auto;
+  padding: 14px;
+  margin-top: -50px;
+  color: rgb(255,255,255,0.8);
+  background-color: rgba(0, 0, 0,0.75);
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000;
+  font-size: 24px;
+  padding: 10px 15px;
+  position: absolute;
+  top: 20px;
+  left: 18px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+  font-family: 'Cinzel', cursive;
+  font-size: 20px;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 12px 18px 0 rgb(0, 0, 0, 0.8);
+	transform: scale(0.8);
+	cursor: pointer;
+} 
+
+@media only screen and (max-width: 860px){
+.prev,
+.next {
+padding: 8px;
+font-size: 20px;
+}
+}

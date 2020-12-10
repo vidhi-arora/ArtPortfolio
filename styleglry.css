@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Big+Shoulders+Inline+Text:wght@600;700&family=Cinzel:wght@500;600&family=Julee&family=Major+Mono+Display&family=Marck+Script&family=Shadows+Into+Light&family=Sirin+Stencil&family=Tangerine:wght@700&display=swap');
+body{
+background: url(glry-bg6.jpg);
+opacity: 1;
+position: relative;
+background-attachment: fixed;
+background-position: center;
+background-size: cover; 
+background-repeat: no-repeat;
+padding: 8px;
+height: 689px;
+width: 1500px;
+}
+.h1{
+letter-spacing: 18px;
+position: absolute;
+padding-bottom: 75px;
+top: 6%;
+left: 2%;
+color: rgb(46, 50, 35);
+font-style: italic;
+font-size: 72px;
+font-weight: bold;
+font-family: 'Tangerine', cursive;
+text-shadow: 0 0 30px #003300;
+}
+.navbar{
+padding: 30px 8px 70px 1035px;
+word-spacing: 8px;
+}
+.navbar a{
+text-decoration: none;
+padding: 5px 10px 5px 10px;
+font-size: 20px;
+font-family: 'Cinzel', serif;
+color: rgb(46, 50, 35);
+background-color: rgb(255, 255, 255,0.4);
+border-radius: 8px;
+}
+.navbar a:hover{
+text-shadow: 0 0 20px #003300;
+}
+.container {
+  position: relative;
+  display: inline;
+  left: 4.2%;
+  padding: 6px;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 5px;
+  height: 100%;
+  width: 90%;
+  opacity: 0.7;
+  transition: .5s ease;
+  border-radius: 7px;
+  background-color: rgb(46, 50, 35,0.95);
+}
+
+.container a:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 20.5px;
+  position: absolute;
+  padding: 50px;
+  top: 14px;
+  bottom: 0;
+  left: 60%;
+  -webkit-transform: translate(-65%, -65%);
+  -ms-transform: translate(-65%, -65%);
+  transform: translate(-65%, -65%);
+  text-align: center;
+  font-family:'Cinzel', cursive;
+  font-style: italic;
+}
+
+.message{
+font-size: 14.5px;
+font-family: Cinzel, cursive;
+color: white;
+padding: 10px 0px 10px 0px;
+border-radius: 8px;
+background-color: rgb(0,0,0,0.55);
+right: 428px;
+top: 92%;
+position: absolute;
+}
+
+@media screen and (max-width: 700px) {
+.h1{
+font-size: 60px;
+}
+}

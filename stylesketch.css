@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Big+Shoulders+Inline+Text:wght@600;700&family=Cinzel:wght@500;600&family=Julee&family=Major+Mono+Display&family=Marck+Script&family=Shadows+Into+Light&family=Sirin+Stencil&family=Tangerine:wght@700&display=swap');
+body{
+background: url(wood-boards-dark.jpg);
+opacity: 1;
+position: relative;
+background-attachment: fixed;
+background-position: center;
+background-size: cover; 
+background-repeat: no-repeat;
+height: 880px;
+width: 1525px;
+} 
+.h1{
+letter-spacing: 20px;
+position: absolute;
+padding-bottom: 40px;
+top: 5.3%;
+left: 1%;
+color: #f2f2f2;
+font-style: italic;
+font-size: 76px;
+font-family: 'Tangerine', cursive;
+text-shadow: 0 0 20px rgb(231, 202, 177);
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 6px;
+  left:85%;
+  background-color: rgb(203, 155, 103,0.9);
+  overflow-x: hidden;
+  overflow: auto;
+  transition: 0.4s;
+  padding-top: 120px;
+}
+
+.sidenav a {
+  padding: 20px 0px 20px 0px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  font-family: Ink Free,sans-serif;
+  font-weight: 550px;
+  color: #000000;
+  display: block;
+  transition: 0.05s;
+}
+
+.sidenav a:hover {
+text-shadow: 0 0 15px rgb(39, 24, 12);
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 35px;
+  right: 25px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  margin-left: 70px;
+}
+.fa{
+padding-top: 135px;
+padding-right: 4px;
+}
+.fa:hover{
+text-shadow: 0 0 20px rgb(39, 24, 12);
+}
+.more{
+letter-spacing: 6px;
+left: 90%;
+padding-top: 28px;
+color: #f2f2f2;
+font-size: 24px;
+font-family: 'Julee';
+cursor: pointer;
+text-shadow: 0 0 10px rgb(231, 202, 177);
+position: absolute;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 75px;
+  padding-bottom: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(236, 217, 198);
+  min-width: 135px;
+  box-shadow: 0px 8px 16px 0px ,rgb(96, 64, 31,0.2);
+  z-index: 1;
+  border-radius: 8px;
+}
+.dropdown-content a {
+  color: rgb(77, 38, 0);
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+}
+.dropdown-content a:hover {
+	background-color: rgb(217, 179, 140,0.5);
+	border-radius: 8px;
+	text-shadow: 0 0 0px rgb(39, 24, 12);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+img{
+padding: 15px;
+width: 250px;
+height: 275px;
+border: 3.5px solid black;
+border-radius: 8px;
+background-color: rgb(0,0,0,0.5);
+transition:  all 0.5s ease-out;
+}
+
+.row1{
+padding-top: 170px;
+padding-left: 30px;
+overflow: hidden;
+}
+.row2{
+padding-top: 30px;
+padding-left: 5px;
+overflow: hidden;
+}
+.row2 img{
+width: 260px;
+}
+.img1{
+width: 245px;
+-ms-transform: rotate(-3deg); /* IE 9 */ 
+transform: rotate(-3deg); /* Standard syntax --> ANTI-CLOCKWISE */
+}
+.img2{
+width: 255px;
+-ms-transform: rotate(3.5deg); /* IE 9 */
+transform: rotate(3.5deg);    /* ----> CLOCKWISE */
+}
+.img3{
+width: 260px;
+-ms-transform: rotate(-2.5deg); /* IE 9 */
+transform: rotate(-2.5deg); /* Standard syntax */
+}
+.img4{
+-ms-transform: rotate(3.5deg); /* IE 9 */
+transform: rotate(3.5deg); 
+}
+.img5{
+width: 235px;
+-ms-transform: rotate(-2.5deg); /* IE 9 */
+transform: rotate(-2.5deg); /* Standard syntax */
+}
+.img6{
+width: 265px;
+height: 268px;
+-ms-transform: rotate(3deg); /* IE 9 */
+transform: rotate(3deg); /* Standard syntax */
+}
+.img7{
+height: 230px;
+width: 385px;
+-ms-transform: rotate(-3deg); /* IE 9 */
+transform: rotate(-3deg); 
+}
+.img8{
+height: 238px;
+width: 285px;
+-ms-transform: rotate(2.5deg); /* IE 9 */
+transform: rotate(2.5deg); /* Standard syntax */
+}
+.img9{
+width: 350px;
+height: 225px;
+-ms-transform: rotate(-3.5deg); /* IE 9 */
+transform: rotate(-3.5deg);    /* ----> CLOCKWISE */
+}
+.img10{
+width: 235px;
+height: 270px;
+-ms-transform: rotate(3deg); /* IE 9 */
+transform: rotate(3deg); /* Standard syntax */
+}
+
+.img1:hover,.img3:hover,.img5:hover,.img7:hover,.img9:hover{
+transform: scale(0.85) rotate(-4deg);
+}
+.img2:hover,.img4:hover,.img6:hover,.img8:hover,.img10:hover{
+transform: scale(0.85) rotate(4deg);
+}
+
+.row1 img:hover{
+background-color: rgb(0,0,0,0);
+}
+.row2 img:hover{
+background-color: rgb(0,0,0,0);
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10px; /* Location of the box */
+  left: 0;
+  top: 0%;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.88); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  top: 5%;
+  margin: auto;
+  display: block;
+  width: 35%;
+  height: 90%;
+  max-width: 600px;
+}
+.modal-content {
+-webkit-animation-name: zoom;
+  -webkit-animation-duration: 1.4s;
+  animation-name: zoom;
+  animation-duration: 1.4s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+  .sidenav {
+	left: 52%;
+  }
+  .sidenav a {
+  padding: 20px 0px 10px 0px;
+  }
+  .fa{
+padding-top: 75px;
+ }
+ .dropdown-content {
+min-width: 135px;
+ }
+ .dropdown-content a{
+font-size: 18px;
+}
+}
+@media only screen and (min-width: 860px){
+  .modal-content {
+    width: 100%;
+  }
+  .sidenav {
+	left: 80%;
+  }
+  .fa{
+padding-top: 60px;
+ }
+}
+@media only screen and (min-width: 1280px){
+.modal-content {
+    width: 100%;
+  }
+  .sidenav {
+	left: 85%;
+  }
+  .fa{
+padding-top: 75px;
+ }
+}

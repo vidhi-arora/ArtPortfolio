@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> OIL PASTELS & PENCIL COLORS</title>
+<link rel="stylesheet" href="styleop.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="h1">Oil Pastels & Pencil Colors</div><br>
+<span class="more" onclick="openNav()">&#8285; More </span> <br>
+
+<script>
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "212px";
+	}
+
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	} 
+</script>
+	<a href="https://icons8.com/icon/45330/expand-arrow"></a>
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\HOMEPAGE\home.html"><b>Home</b></a>
+	  <a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\ABOUT\ABOUT.html"><b>About</b></a>
+	  <a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\BLOG\BLOGPAGE.html"><b>Blog</b></a>
+	  <div class="dropdown">
+	  <a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\GALLERY\artgallery.html"><b>Gallery</b> <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 18px; padding-left: 4px;"></i> </a>
+	  <div class="dropdown-content">
+	  <a href="sketches.html">Sketches</a>
+	  <a href="Acrylicsnew.html">Acrylics & Watercolors</a>
+	  <a href="craftcorner.html">Craft Corner</a>
+	  </div>
+	  </div>
+	  <a href="https://www.instagram.com/artcalling_life/" target="_blank" style="padding-right: 12px;"><i style="font-size:24px; color: #f3e5d8;" class="fa" aria-hidden="true">&#xf16d;</i> <b>Instagram</b></a>
+	</div>
+<div class="row1">
+<div class="col"><img id="myImg" src="Oil pastels\india.jpg" class="img2" onclick="zoom()" alt="India : A Land of Diversity"/></div>
+<div class="col"><img id="myImg" src="Oil pastels\hibiscus.jpg" class="img1" onclick="zoom()"alt="Hibiscus"/></div>
+</div>
+<div class="row2">
+<div class="col"><img id="myImg" src="Oil pastels\pop expl-1.jpg" class="img6" onclick="zoom()" alt="Population Explosion"/></div>
+<div class="col"><img id="myImg" src="Oil pastels\rainy dayy.jpg" class="img5" onclick="zoom()" alt="A rainy day"/></div>
+<div class="col"><img id="myImg" src="Oil pastels\landscape (1).jpg" class="img3" onclick="zoom()" alt="Landscape"/></div>
+<div class="col"><img id="myImg" src="Oil pastels\still life (1).jpg" class="img4" onclick="zoom()" alt="STILL LIFE"/></div>
+</div>	
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img">
+  <div id="caption"></div>
+</div>
+  
+<script>
+var modal = document.getElementById("myModal");
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var modalImg = document.getElementById("img");
+var captiontext= document.getElementById("caption");
+
+function zoom(){
+  modal.style.display = "block";
+  modalImg.src = event.target.src;
+  captiontext.innerHTML= event.target.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}	
+</script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> SKETCHES</title>
+<link rel="stylesheet" href="stylesketch.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="h1">Sketches</div><br>
+<span class="more" onclick="openNav()">&#8285; More </span>
+
+<div class="row1">
+<img id="myImg" src="Sketches\flower-3.jpg" class="img1" onclick="zoom()">
+<img id="myImg" src="Sketches\bird-3.jpg" class="img2" onclick="zoom()"/>
+<img id="myImg" src="Sketches\flower.jpg" class="img3" onclick="zoom()"/>
+<img id="myImg" src="Sketches\tree-1.jpg" class="img4" onclick="zoom()"/>
+<img id="myImg" src="Sketches\tree-2.jpg" class="img5" onclick="zoom()"/> 
+</div>
+
+<div class="row2">
+<img id="myImg" src="Sketches\girl sk.jpg" class="img6" onclick="zoom()"/>
+<img id="myImg" src="Sketches\bird-2.jpg" class="img7" onclick="zoom()"/>
+<img id="myImg" src="Sketches\birds-sk1.jpg" class="img8" onclick="zoom()"/>
+<img id="myImg" src="Sketches\galaxy-1.jpg" class="img9" onclick="zoom()"/>
+<img id="myImg" src="Sketches\thp-1.jpg" class="img10" onclick="zoom()"/>
+</div>
+
+<script>
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "222px";
+	}
+
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	} 
+</script>
+	<a href="https://icons8.com/icon/45330/expand-arrow"></a>
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\HOMEPAGE\home.html"><b>Home</b></a>
+	  <a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\ABOUT\ABOUT.html"><b>About</b></a>
+	  <a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\BLOG\BLOGPAGE.html"><b>Blog</b></a>
+	  <div class="dropdown">
+	  <a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\GALLERY\artgallery.html"><b>Gallery</b> <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 18px; padding-left: 4px;"></i> </a>
+	  <div class="dropdown-content">
+	  <a href="Acrylicsnew.html">Acrylics & Watercolors</a> 
+	  <a href="craftcorner.html">Craft Corner</a>
+	  <a href="oilpastels.html">Oil Pastels & Pencil Colors</a>
+	  </div>
+	  </div>
+	  <a href="https://www.instagram.com/artcalling_life/" target="_blank" style="padding-right: 12px;"><i style="font-size:24px; color: #000000;" class="fa" aria-hidden="true">&#xf16d;</i> <b>Instagram</b></a>
+	</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img">
+</div>
+  
+<script>
+var modal = document.getElementById("myModal");
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var modalImg = document.getElementById("img");
+function zoom(){
+  modal.style.display = "block";
+  modalImg.src = event.target.src;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}	
+</script>
+</body>
+</html>

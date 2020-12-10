@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> GALLERY</title>
+<link rel="stylesheet" href="styleglry.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script>
+function myPrompt(){
+var inputname= prompt("Please enter your name here");
+if(inputname!="")
+document.getElementById("name").innerHTML= "Hi " + inputname + "! Thank you for visiting my art gallery :)";
+else
+alert("No input provided");
+}
+</script>
+
+<body>
+<div class="navbar">
+<a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\HOMEPAGE\home.html">HOME</a>
+<a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\ABOUT\ABOUT.html" class="about">ABOUT</a>
+<a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\GALLERY\artgallery.html"><b>GALLERY</b></a>
+<a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\BLOG\BLOGPAGE.html">BLOG</a>
+<a href="https://www.instagram.com/artcalling_life/" target="_blank"><i style="font-size:20px;  color: black" class="fa" aria-hidden="true">&#xf16d;</i></a>
+</div><br>
+<div class="h1">Art Gallery</div><br>
+
+<div class="container">
+<a href="Sketches.html">
+<img src="Sketches/birds-sk1.jpg" width="277px" height="205px" class="image" style=" border: 4px solid rgb(24, 34, 19); border-radius: 10px; opacity: 0.9; -ms-transform: rotate(-2deg); transform: rotate(-2deg);" >
+<div class="overlay">
+    <div class="text">Sketches</div>
+  </div>
+</a>
+</div>
+
+<div class="container">
+<a href="Acrylicsnew.html">
+<img src="Acrylics/fishes-w3.jpg" width="255px" height="205px" class="image" style="border: 4px solid rgb(24, 34, 19); border-radius: 10px; opacity: 0.9; -ms-transform: rotate(2deg); transform: rotate(2deg);" >
+<div class="overlay">
+    <div class="text">Acrylics</div>
+  </div>
+</a> 
+</div> <br>
+
+<div class="container">
+<a href="oilpastels.html">
+<img src="Oil Pastels/hibiscus.jpg" width="255x" height="235px" class="image" style="border: 4px solid rgb(24, 34, 19); border-radius: 10px; opacity: 0.9; -ms-transform: skewY(3deg); transform: skewY(3deg);" >
+<div class="overlay">
+    <div class="text">OilPastels</div>
+  </div>
+</a>
+</div>
+
+<div class="container">
+<a href="craftcorner.html">
+<img src="Craft Corner\birdhs-1.png" width="245x" height="225px" class="image" style="border: 4px solid rgb(24, 34, 19); border-radius: 10px; opacity: 0.9; -ms-transform: skewY(-4.5deg); transform: skewY(-4.5deg);" >
+<div class="overlay">
+    <div class="text">CraftCorner</div>
+  </div>
+</a>
+</div>
+
+<a href="https://icons8.com/icon/31707/leaf"></a>
+<a href="javascript:void(0)" onclick="myPrompt()" style="text-decoration: none; color: rgb(46, 50, 35); padding: 12px; font-family: Ink Free, sans-serif; font-size: 19px;"><img src="https://img.icons8.com/office/65/000000/leaf.png" style="padding-left: 110px; font-size: 26px;"/><b> Tap Me after the gallery tour!</b></a>
+<span id="name" class="message"></span>
+
+</body>
+</html>
