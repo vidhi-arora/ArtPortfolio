@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> HOME</title>
+<link rel="stylesheet" href="stylehomepg.css">
+</head>
+<body>
+<div class="home">
+
+<div class="h1"><b>VA</b></div>
+<div class="h2">explore the art </div><span class="word">within</span><br><br>
+<div class="navbar">
+<a href="https://icons8.com/icon/ZOFC5nSr215Y/instagram"></a>
+<a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\ABOUT\ABOUT.html">about</a>
+<a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\GALLERY\artgallery.html">gallery</a>
+<a href="C:\Users\ACER\Documents\HTML FILES\PROJECT-ENGG EXPL\BLOG\BLOGPAGE.html">blog</a>
+<a href="https://www.instagram.com/artcalling_life/" target="_blank"><img src="https://img.icons8.com/material-rounded/24/000000/instagram-new.png" class="icon"/></a>
+</div>
+
+</div>
+<div class="intro">
+<div class="intro-text">
+
+<h1 class="hide">
+<span class="text"> Art</span>
+</h1>
+<h1 class="hide">
+<span class="text"> has a way</span>
+</h1>
+<h1 class="hide">
+<span class="text"> of changing lives.</span>
+</h1>
+
+</div>
+</div>
+<div class="slider"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+<script>
+const tl= gsap.timeline({defaults: {ease: "power1.out"}});
+tl.to(".text", {y:"0%", duration: 1.7, stagger: 0.35});
+tl.to(".slider", {y: "-100%", duration: 1.5, delay: 1.2});
+tl.to(".intro", {y: "-100%", duration: 1}, "-=1");
+tl.fromTo(".h2",{opacity: 0}, {opacity: 1, duration: 1.5});
+tl.fromTo(".word",{opacity: 0}, {opacity: 1, duration: 1.5}, "-=1");
+tl.fromTo(".navbar",{opacity: 0}, {opacity: 1, duration: 1.5}, "-=1");
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500&display=swap');
+body, html{
+background-color: rgb(216, 206, 188,0.15);
+}
+.name{
+font-size: 60px;
+font-family: Ink Free, sans-serif;
+padding: 30px 15px 0px 38px;
+}
+.artist{
+padding: 5px 0px 0px 230px;
+font-size: 26px;
+font-family: Courier New,sans-serif;
+}
+a{
+text-decoration: none;
+padding: 12px;
+font-size: 20px;
+font-family: 'Cinzel', serif;
+color: rgb(0, 38, 77);
+}
+.navbar a:hover{
+color: #1a0000;
+background-color: rgb(128, 64, 0,0.25);
+font-weight: 520;
+}
+.navbar{
+padding: 0px 8px 22px 1035px;
+}
+.about{
+color: #1a0000;
+background-color: rgb(128, 64, 0,0.25);
+font-weight: 520;
+}
+.craft{
+font-family: Courier New, sans-serif;
+}
+.image{
+width: 350px;
+height: 390px;
+float: left;
+padding: 5px 30px 20px 0px;
+}
+.clearfix{
+overflow: auto;
+font-size: 18px;
+line-height: 150%;
+font-family: Candara, sans-serif;
+padding: 0px 25px 45px 20px;
+}
+.closing{
+font-size: 20px;
+font-family: Courier New, sans-serif;
+}
+.closing a{
+font-size: 19px;
+}
+
+@media screen and (max-width: 1380px){
+a{
+padding: 8px;
+font-size: 22px;
+}
+.navbar{
+padding: 0px 4px 20px 640px;
+}
+.image{
+width: 320px;
+height: 385px;
+float: left;
+padding: 0px 35px 25px 5px;
+}
+.clearfix{
+overflow: auto;
+font-size: 18px;
+line-height: 165%;
+font-family: Candara, sans-serif;
+padding: 0px 5px 35px 12px;
+}
+.closing{
+font-size: 19px;
+}	
+.closing a{
+font-size: 19px;
+}
+}
+	
+@media screen and (max-width: 828px){
+a{
+display: inline;
+padding: 3px;
+padding-right: 11px;
+}
+}
+@media screen and (max-width: 780px){
+.navbar{
+padding-left: 512px;
+}
+}
+@media screen and (max-width: 650px){
+.navbar{
+padding-left: 420px;
+}
+.image{
+width: 290px;
+height: 350px;
+}
+}
+@media screen and (max-width: 520px){
+.navbar{
+padding-left: 340px;
+padding-top: 20px;
+}
+.image{
+width: 275px;
+height: 320px;
+}
+}
