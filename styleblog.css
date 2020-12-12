@@ -94,21 +94,31 @@ section{
 padding: 2%;
 }
 }
-@media screen and (max-width: 700px) {
-.heading1{
-font-size: 140%;
-}
-.heading3{
-position: absolute;
-padding-left: 550px;
+@media screen and (max-width: 650px) {
+.heading1 span{
+display: inline-block;
+transform: translateY(25%) translateX(8%);
+font-size: 2rem;
+line-height: 55px;
 }
 .heading3 span{
-font-size: 42px;
+display: inline-block;
+font-size: 2rem;
+transform: translateY(45%) translateX(45%);
+line-height: 150%;
+}
+.more{
+display: inline-block;
+transform: translateX(-35%);
 }
 .heading{
 font-size: 90%;
 letter-spacing: 2px;
 line-height: 100%;
+}
+.toplink{
+display: inline-block;
+transform: translateY(380%) translateX(4%);
 }
 .toplink a{
 font-size: 15px;
@@ -132,6 +142,8 @@ background-attachment: scroll;
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+/* main text */
 .parallax1{
 background: url(new1.jpg);
 min-height: 750px;
