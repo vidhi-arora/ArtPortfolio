@@ -97,7 +97,7 @@ padding: 2%;
 @media screen and (max-width: 650px) {
 .heading1 span{
 display: inline-block;
-transform: translateY(15%) translateX(12%);
+transform: translateY(10%) translateX(6%);
 font-size: 2rem;
 line-height: 55px;
 }
