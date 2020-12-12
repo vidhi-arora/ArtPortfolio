@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@500&family=Josefin+Sans:ital@1&family=Kalam&family=Kaushan+Script&family=Lobster&family=Marck+Script&family=Open+Sans+Condensed:wght@300&display=swap');
 body, html{
 background-color: rgb(216, 206, 188,0.15);
 }
@@ -95,6 +95,10 @@ padding-right: 11px;
 @media screen and (max-width: 780px){
 .navbar{
 padding-left: 512px;
+}
+.name{
+font-family: 'Kaushan Script', cursive;
+font-size: 55px;
 }
 }
 @media screen and (max-width: 650px){
