@@ -23,6 +23,7 @@ color: rgb(0, 38, 77);
 color: #1a0000;
 background-color: rgb(128, 64, 0,0.25);
 font-weight: 520;
+border-radius: 7px;
 }
 .navbar{
 padding: 0px 8px 22px 1040px;
@@ -31,6 +32,7 @@ padding: 0px 8px 22px 1040px;
 color: #1a0000;
 background-color: rgb(128, 64, 0,0.25);
 font-weight: 520;
+border-radius: 7px;
 }
 .craft{
 font-family: Courier New, sans-serif;
