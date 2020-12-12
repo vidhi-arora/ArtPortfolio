@@ -97,14 +97,14 @@ padding: 2%;
 @media screen and (max-width: 650px) {
 .heading1 span{
 display: inline-block;
-transform: translateY(25%) translateX(8%);
+transform: translateY(15%) translateX(12%);
 font-size: 2rem;
 line-height: 55px;
 }
 .heading3 span{
 display: inline-block;
 font-size: 2rem;
-transform: translateY(45%) translateX(45%);
+transform: translateY(45%) translateX(40%);
 line-height: 150%;
 }
 .more{
