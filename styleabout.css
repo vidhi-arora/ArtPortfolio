@@ -91,6 +91,10 @@ display: inline;
 padding: 3px;
 padding-right: 11px;
 }
+.name{
+font-family: 'Kaushan Script', cursive;
+font-size: 55px;
+}
 }
 @media screen and (max-width: 780px){
 .navbar{
@@ -118,6 +122,10 @@ height: 350px;
 .navbar{
 padding-left: 340px;
 padding-top: 20px;
+}
+.name{
+font-family: 'Kaushan Script', cursive;
+font-size: 55px;
 }
 .image{
 width: 275px;
