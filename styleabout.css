@@ -105,6 +105,10 @@ font-size: 55px;
 .navbar{
 padding-left: 420px;
 }
+.name{
+font-family: 'Kaushan Script', cursive;
+font-size: 55px;
+}
 .image{
 width: 290px;
 height: 350px;
