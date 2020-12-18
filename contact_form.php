@@ -12,5 +12,5 @@ $body= "Name: $user_name.\n".
 $to= "csvidhi15@gmail.com";
 
 mail($to,$subject,$body);
-header('Location: contact.html');
+header('Location: index.html');
 ?>
