@@ -1,4 +1,12 @@
 <?php
+$user_name = $user_email = $message = "";
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $user_name = test_input($_POST["Name"]);
   $user_email = test_input($_POST["email"]);
@@ -16,14 +24,6 @@ $to= "csvidhi15@gmail.com";
 $headers= "From: $email_from \r\n";
 $headers.= "Reply To: $user_email \r\n";
 
-$name = $email = $message = "";
-
-function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
-}
 mail($to,$subject,$body,$headers);
 header('Location: contact.html');
 ?>
