@@ -14,23 +14,22 @@
 <div class="h1">Contact</div>
 <div class="subtext">If you have any suggestions, questions,<br>or feedback, please feel free to send a message.</div>
 
-<form id="contact-form" method="POST" action="mailto:csvidhi15@gmail.com" enctype="text/plain" autocomplete="nope">
-<input type="password" style="display:none;" readonly>
+<form method="POST" action="mailto:csvidhi15@gmail.com" enctype="text/plain" autocomplete="nope">
 <div class="contact-form">
 <div class="box">
-<input name="Name" type="text" autocomplete="off" required> <br>
+<input name="Name" type="text" readonly onfocus="this.removeAttribute('readonly')" required> <br>
 <label for="name">Name</label>
 <span></span>
 </div>
 
 <div class="box">
-<input name="Email" type="text" autocomplete="off" required> <br>
+<input name="Email" type="text" readonly onfocus="this.removeAttribute('readonly')" required> <br>
 <label for="email">Email</label>
 <span></span>
 </div>
 
 <div class="textbox">
-<textarea name="message" autocomplete="off" required></textarea> <br>
+<textarea name="message" readonly onfocus="this.removeAttribute('readonly')" required></textarea> <br>
 <label for="Message">Message</label>
 <span></span>
 </div>
