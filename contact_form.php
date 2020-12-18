@@ -27,11 +27,4 @@ $headers.= "Reply To: $user_email \r\n";
 mail($to,$subject,$body,$headers);
 header('Location: contact.html');
 ?>
-<html>
-<head></head>
-<body>
-<script>
-onLoad.alert("Thank You! Your message has been sent.");
-</script>
-</body>
-</html>
+
