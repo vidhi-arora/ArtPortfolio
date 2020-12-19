@@ -2,6 +2,33 @@
 <html>
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script>
+ function showMsg() {
+  if (areInputsEmpty())
+    alert('Please fill out all the fields.');
+  else
+    alert('Thank you! Your message has been sent.');
+});
+  
+function areInputsEmpty() {
+  var a= $("input:text").filter(function() {
+    return ($(this).val()).length > 0
+  }).length <=1
+  var b= $(".contact-form textarea").filter(function() {
+    return ($(this).val()).length > 0
+  }).length ==0
+  
+  if(a){
+  return a;
+  }
+  else if(b){
+  return b;
+  }
+  else
+  return false;
+}
+</script>
+ 
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon[1].png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32[1].png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16[1].png">
@@ -49,33 +76,6 @@ $('#gform').on('submit', function(e) {
   $('#gform').prepend('Your submission has been processed...');
   });
 </script>
- <script>
- function showMsg() {
-  if (areInputsEmpty())
-    alert('Please fill out all the fields.');
-  else
-    alert('Thank you! Your message has been sent.');
-});
-  
-function areInputsEmpty() {
-  var a= $("input:text").filter(function() {
-    return ($(this).val()).length > 0
-  }).length <=1
-  var b= $(".contact-form textarea").filter(function() {
-    return ($(this).val()).length > 0
-  }).length ==0
-  
-  if(a){
-  return a;
-  }
-  else if(b){
-  return b;
-  }
-  else
-  return false;
-}
-
- </script>
  
 </body>
 </html>
