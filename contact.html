@@ -49,8 +49,12 @@ $('#gform').on('submit', function(e) {
   });
 </script>
  <script>
+  var username=document.getElementById("entry.697920170").value;
+  var useremail=document.getElementById("entry.2004832409").value;
+  var usermessage=document.getElementById("entry.1602866753").value;
+  
   function sendmessage(){
-   if(document.getElementById("entry.697920170").value!=""&& document.getElementById("entry.2004832409").value!=""&& document.getElementById("entry.1602866753").value!=""){
+   if((username!="" && useremail!="")&& usermessage!=""){
    alert("Thank you! Your message has been sent.");
    }
    else{
