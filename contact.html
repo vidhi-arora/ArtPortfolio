@@ -23,7 +23,7 @@
 </div>
 
 <div class="box">
-<input name="entry.2004832409" id="entry.2004832409" type="text" autocomplete="off" required> <br>
+<input name="entry.2004832409" id="entry.2004832409" type="email" autocomplete="off" required> <br>
 <label for="email">Email</label>
 <span></span>
 </div>
@@ -34,7 +34,7 @@
 <span></span>
 </div>
 
-<input type="submit" class="submit" value="Send">
+<input id="sendbtn" onclick="sendmessage()" type="submit" class="submit" value="Send">
 
 </div>
 </form>
@@ -48,6 +48,11 @@ $('#gform').on('submit', function(e) {
   $('#gform').prepend('Your submission has been processed...');
   });
 </script>
-  
+ <script>
+  function sendmessage(){
+   alert("Thank you! Your message has been sent.");
+  }
+ </script>
+ 
 </body>
 </html>
