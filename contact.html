@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon[1].png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32[1].png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16[1].png">
@@ -34,7 +35,7 @@
 <span></span>
 </div>
 
-<input id="sendbtn" type="submit" class="submit" value="Send">
+<input id="sendbtn" onclick="showMsg()" type="submit" class="submit" value="Send">
 
 </div>
 </form>
@@ -49,7 +50,7 @@ $('#gform').on('submit', function(e) {
   });
 </script>
  <script>
- $('#sendbtn').click(function() {
+ function showMsg() {
   if (areInputsEmpty())
     alert('Please fill out all the fields.');
   else
