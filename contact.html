@@ -42,7 +42,7 @@ function areInputsEmpty() {
 <div class="h1">Contact</div>
 <div class="subtext">If you have any suggestions, questions,<br>or feedback, please feel free to send a message.</div>
 
-<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeors5Lc9PApXwETYyPkEOSEU5fLvMmEFqyE-1_iK6URj9rJQ/formResponse?" autocomplete="off" target="hidden_iframe" onsubmit="submitted=true;">
+<form name="gform" id="gform" enctype="text/plain" onsubmit="resetform()" action="https://docs.google.com/forms/d/e/1FAIpQLSeors5Lc9PApXwETYyPkEOSEU5fLvMmEFqyE-1_iK6URj9rJQ/formResponse?" autocomplete="off" target="hidden_iframe" onsubmit="submitted=true;">
 <div class="contact-form">
 <div class="box">
 <input name="entry.697920170" id="entry.697920170" type="text" autocomplete="off" required> <br>
@@ -66,15 +66,16 @@ function areInputsEmpty() {
 
 </div>
 </form>
- <div id="redirectmsg"></div>
+ 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
  
 <script src="assets/js/jquery.min.js"></script>
 <script type="text/javascript">var submitted=false;</script>
 <script type="text/javascript">
-$('#gform').on('submit', function() {
-  document.getElementById("gform").reset();
-  });
+function resetform(){
+document.getElementById("gform").reset();
+}
+ 
 </script>
  
 </body>
