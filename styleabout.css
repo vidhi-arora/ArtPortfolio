@@ -14,8 +14,8 @@ font-family: Courier New,sans-serif;
 }
 a{
 text-decoration: none;
-padding: 10px;
-font-size: 20px;
+padding: 8px;
+font-size: 19px;
 font-family: 'Cinzel', serif;
 color: rgb(0, 38, 77);
 }
@@ -26,7 +26,7 @@ font-weight: 520;
 border-radius: 7px;
 }
 .navbar{
-padding: 0px 8px 22px 1040px;
+padding: 0px 8px 22px 940px;
 }
 .about{
 color: #1a0000;
@@ -110,6 +110,9 @@ font-size: 55px;
 @media screen and (max-width: 650px){
 .navbar{
 padding-left: 420px;
+}
+a{
+font-size: 16px;
 }
 .name{
 font-family: 'Kaushan Script', cursive;
