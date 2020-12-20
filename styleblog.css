@@ -65,6 +65,9 @@ word-spacing: 2px;
   font-size: 40px;
   margin-left: 50px;
 }
+.blog{
+  text-shadow: 0 0 10px #66d9ff;
+}
 .fa{
 padding-top: 100px;
 padding-right: 4px;
