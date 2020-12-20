@@ -42,12 +42,12 @@ text-shadow: 0 0 30px #003300;
 }
 
 .navbar{
-padding: 30px 8px 70px 990px;
-word-spacing: 5px;
+padding: 30px 0px 70px 1000px;
+word-spacing: 4px;
 }
 .navbar a{
 text-decoration: none;
-padding: 5px 8px 5px 8px;
+padding: 8px;
 font-size: 18px;
 font-family: 'Cinzel', serif;
 color: rgb(46, 50, 35);
@@ -56,6 +56,9 @@ border-radius: 8px;
 }
 .navbar a:hover{
 text-shadow: 0 0 20px #003300;
+}
+.glry{
+text-shadow: 0 0 30px #003300;
 }
 .container {
   position: relative;
