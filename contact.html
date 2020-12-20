@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script>
+ function showMsg() {
+  if (areInputsEmpty())
+    alert('Please fill out all the fields.');
+  else{
+    alert('Thank you! Your message has been sent.');
+   document.getElementById("gform").reset();
+  }
+}
+  
+function areInputsEmpty() {
+  var a= $("input:text").filter(function() {
+    return ($(this).val()).length > 0
+  }).length <=1
+  var b= $(".contact-form textarea").filter(function() {
+    return ($(this).val()).length > 0
+  }).length ==0
+  
+  if(a){
+  return a;
+  }
+  else if(b){
+  return b;
+  }
+  else
+  return false;
+}
+ </script>
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon[1].png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32[1].png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16[1].png">
@@ -14,7 +43,7 @@
 <div class="h1">Contact</div>
 <div class="subtext">If you have any suggestions, questions,<br>or feedback, please feel free to send a message.</div>
 
-<form name="gform" id="gform" enctype="text/plain" onsubmit="resetform()" action="https://docs.google.com/forms/d/e/1FAIpQLSeors5Lc9PApXwETYyPkEOSEU5fLvMmEFqyE-1_iK6URj9rJQ/formResponse?" autocomplete="off" target="hidden_iframe" onsubmit="submitted=true;">
+<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeors5Lc9PApXwETYyPkEOSEU5fLvMmEFqyE-1_iK6URj9rJQ/formResponse?" autocomplete="off" target="hidden_iframe" onsubmit="submitted=true;">
 <div class="contact-form">
 <div class="box">
 <input name="entry.697920170" id="entry.697920170" type="text" autocomplete="off" required> <br>
@@ -34,7 +63,7 @@
 <span></span>
 </div>
 
-<input id="sendbtn" type="submit" class="submit" value="Send">
+<input id="sendbtn" onclick="showMsg()"type="submit" class="submit" value="Send">
 
 </div>
 </form>
@@ -43,13 +72,6 @@
  
 <script src="assets/js/jquery.min.js"></script>
 <script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-function resetform(){
- alert('Thank you! Your message has been sent.');
-document.getElementById("gform").reset();
-}
- 
-</script>
  
 </body>
 </html>
