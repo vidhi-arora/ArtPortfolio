@@ -25,13 +25,13 @@ font-family: 'Tangerine', cursive;
 text-shadow: 0 0 30px #003300;
 }
 .navbar{
-padding: 30px 8px 70px 1035px;
-word-spacing: 8px;
+padding: 30px 8px 70px 990px;
+word-spacing: 5px;
 }
 .navbar a{
 text-decoration: none;
-padding: 5px 10px 5px 10px;
-font-size: 20px;
+padding: 5px 8px 5px 8px;
+font-size: 18px;
 font-family: 'Cinzel', serif;
 color: rgb(46, 50, 35);
 background-color: rgb(255, 255, 255,0.4);
