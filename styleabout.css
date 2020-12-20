@@ -19,6 +19,28 @@ font-size: 19px;
 font-family: 'Cinzel', serif;
 color: rgb(0, 38, 77);
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 7px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(216, 206, 188,0.15);
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(128, 64, 0,0.25);
+}
+
 .navbar a:hover{
 color: #1a0000;
 background-color: rgb(128, 64, 0,0.25);
