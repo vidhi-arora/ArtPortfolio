@@ -10,6 +10,23 @@ font-size: 105%;
 p{
 word-spacing: 2px;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px grey; 
+  border-radius: 4px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(77, 38, 0,0.35);
+  border-radius: 4px;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
