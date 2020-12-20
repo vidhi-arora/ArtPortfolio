@@ -11,11 +11,35 @@
 <title> CONTACT</title>
 <link rel="stylesheet" href="stylecontact.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+ <script>
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "220px";
+	}
+
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	} 
+</script>
 </head>
+ 
 <body>
+<div class="more" onclick="openNav()">&#8285; More</div> <br>
+ 
 <div class="h1">Contact</div>
 <div class="subtext">If you have any suggestions, questions,<br>or feedback, please feel free to send a message.</div>
-
+ 
+<a href="https://icons8.com/icon/45330/expand-arrow"></a>
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="home.html">Home</a>
+	  <a href="ABOUT.html">About</a>
+	  <a href="BLOGPAGE.html">Blog</a>
+	  <a href="contact.html" class="cnt">Contact</a>
+	  <a href="artgallery.html">Gallery</a>
+	  <a href="https://www.instagram.com/artcalling_life/" target="_blank" style="padding-right: 12px;"><i style="font-size:24px; color: white;" class="fa" aria-hidden="true">&#xf16d;</i> Instagram</a>
+	</div>
+ 
 <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeors5Lc9PApXwETYyPkEOSEU5fLvMmEFqyE-1_iK6URj9rJQ/formResponse?" autocomplete="off" target="hidden_iframe" onsubmit="submitted=true;">
 <div class="contact-form">
 <div class="box">
