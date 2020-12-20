@@ -37,7 +37,7 @@ text-shadow: 0 0 30px #003300;
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(179, 179, 179)
+  background: rgb(179, 179, 179);
   border-radius: 4px;
 }
 
