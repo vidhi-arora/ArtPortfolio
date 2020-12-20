@@ -36,6 +36,28 @@ background-color: rgb(39, 25, 12,0.8);
 border: 2px solid rgb(98, 63, 30);
 border-radius: 5px;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 7px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(216, 206, 188,0.15);
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(128, 64, 0,0.25);
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -47,11 +69,11 @@ border-radius: 5px;
   overflow-x: hidden;
   overflow: auto;
   transition: 0.4s;
-  padding-top: 110px;
+  padding-top: 90px;
 }
 
 .sidenav a {
-  padding: 20px 10px 20px 0px;
+  padding: 15px 10px 12px 0px;
   text-decoration: none;
   text-align: center;
   font-size: 25px;
@@ -70,9 +92,9 @@ text-shadow: 0 0 12px #f3e5d8;
 
 .sidenav .closebtn {
   position: absolute;
-  top: 35px;
+  top: 15px;
   right: 25px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   font-size: 40px;
   margin-left: 70px;
 }
@@ -95,17 +117,17 @@ text-shadow: 0 0 20px rgb(39, 24, 12);
   display: none;
   position: absolute;
   background-color: rgb(231, 202, 177,0.7);
-  max-width: 135px;
+  max-width: 125px;
   box-shadow: 0px 8px 16px 0px ,#001a33;
   z-index: 1;
   border-radius: 8px;
-  right: 2px;
+  right: 1px;
 }
 .dropdown-content a {
   color: #4d3319;
   text-shadow: 0 0 0px #1a0d00;
   font-weight: bold;
-  padding: 8px 8px;
+  padding: 8px;
   text-decoration: none;
   display: block;
   font-size: 18px;
