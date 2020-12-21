@@ -73,20 +73,9 @@ padding-top: 100px;
 padding-right: 4px;
 }
 .toplink{
-padding: 134px 0px 0px 28px;
+padding: 110px 0px 0px 28px;
 }
-.toplink a{
-font-size: 19px;
-color: #000;
-font-style: italic;
-text-align: left;
-text-decoration: none;
-font-family: Georgia, sans-serif;
-background-color: #e6fff2;
-padding: 8px;
-border: 2px solid black;
-border-radius: 18px;
-}
+
 @media screen and (max-width: 1380px){
 .heading1{
 top: 60%;
