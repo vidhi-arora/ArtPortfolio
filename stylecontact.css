@@ -236,7 +236,12 @@ font-family: 'Ruthie', cursive;
 padding: 8px 12px 8px 16px;
 }
 .more{
-right: 10%;
+transform: translateX(-525%) translateY(585%);
+padding-top: 0px;
+}
+.sidenav{
+transform: translateX(-195%);
+padding-top: 110px;
 }
 }
 
