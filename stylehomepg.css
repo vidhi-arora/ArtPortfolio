@@ -84,8 +84,8 @@ justify-content: center;
 }
 .intro-text{
 color: rgb(180, 141, 100);
-font-size: 2rem;
-font-family: 'Cormorant Garamond', serif;
+font-size: 1.8rem;
+font-family: 'Marck Script', cursive;
 font-style: italic;
 }
 .slider{
@@ -128,6 +128,12 @@ padding: 6px;
 h1{
 font-size: 20px;
 letter-spacing: 2px;
+}
+.h2{
+top: 74%;
+}
+.word{
+top: 82%;
 }
 }
 @media screen and (max-width: 520px){
