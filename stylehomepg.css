@@ -117,13 +117,13 @@ display: inline-block;
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(163, 163, 117,0.5);
+  background: rgb(120, 106, 93,0.9);
   border-radius: 4px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(68, 68, 34,0.8);
+  background: rgb(158, 154, 139,0.8);
 }
 @media screen and (max-width: 868px){
 .home{
