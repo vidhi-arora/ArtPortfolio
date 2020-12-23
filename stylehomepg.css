@@ -36,6 +36,8 @@ font-style: italic;
 padding: 10px;
 letter-spacing: 11px;
 text-shadow: 0 0 12px #000;
+-webkit-filter: drop-shadow( -5px -5px 5px #000 );
+ filter: drop-shadow( -5px -5px 5px #000 );
 }
 .word{
 left: 8%;
@@ -125,7 +127,32 @@ display: inline-block;
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(158, 154, 139,0.8);
 }
-	
+@media screen and (max-width: 1366px){
+.home{
+height: 800px;
+width: 1400px;
+}
+.h2{
+top: 500px;
+}
+.word{
+top: 555px;	
+}
+.navbar{
+top: 600px;
+}
+}
+@media screen and (max-width: 1520px){
+.h2{
+top: 515px;
+}
+.word{
+top: 575px;	
+}
+.navbar{
+top: 612px;
+}
+}	
 @media screen and (max-width: 650px){
 .h2{
 top: 495px;
