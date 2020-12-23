@@ -159,10 +159,6 @@ top: 550px;
 .navbar{
 top: 625px;
 }
-a{
-font-size: 15px;
-padding: 5px;
-}
 }
 @media screen and (max-width: 520px){
 .home{
@@ -187,4 +183,7 @@ font-size: 32px;
 letter-spacing: 7px;
 top: 565px;
 }
+.intro-text{
+font-size: 30px;
+ }
 }
