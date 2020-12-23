@@ -134,17 +134,16 @@ display: inline-block;
 @media screen and (max-width: 1380px){
 .home{
 height: 712px;
-width: 1290px;
+width: 1294px;
 }
 .h2{
-top: 580px;
+top: 590px;
 }
 .word{
-top: 635px;	
+top: 645px;	
 }
 .navbar{
-top: 665px;
-right: 6%;
+top: 655px;
 }
 .h1{
 top: 60px;
