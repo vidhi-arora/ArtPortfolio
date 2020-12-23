@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Arizonia&family=Bilbo+Swash+Caps&family=Buda:wght@300&family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@500&family=Cormorant+Garamond:wght@500&family=Dancing+Script:wght@500;600&family=Euphoria+Script&family=Fondamento:ital@1&family=Great+Vibes&family=Italianno&family=Kaushan+Script&family=Marck+Script&family=Megrim&family=Montez&family=Niconne&family=Nothing+You+Could+Do&family=Qwigley&family=Tangerine:wght@700&display=swap');
 body{
+background-color: #000;
+}
+.home{
 background: url(H2.jpg);
 opacity: 0.9;
 position: relative;
@@ -7,38 +10,36 @@ background-attachment: fixed;
 background-position: center;
 background-size: cover; 
 background-repeat: no-repeat;
+padding: 10px;
+height: 680px;
+width: 1498px;
 }
 .h1{
 letter-spacing: 4px;
 position: absolute;
-top: 65px;
-left: 4%;
+top: 2%;
+left: 6%;
 color: white;
 font-style: italic;
 font-size: 60px;
 font-family: 'Kaushan Script', cursive;
 text-shadow: 0 0 12px #000;
--webkit-filter: drop-shadow( -5px -5px 5px #000 );
- filter: drop-shadow( -5px -5px 5px #000 );
 }
 .h2{
 position: absolute;
 color: white;
 font-size: 40px;
-top: 1080px;
+top: 78%;
 left: 0.5%;
 font-family: 'Megrim', cursive;
 font-style: italic;
 padding: 10px;
 letter-spacing: 11px;
 text-shadow: 0 0 12px #000;
--webkit-filter: drop-shadow( -5px -5px 5px #000 );
- filter: drop-shadow( -5px -5px 5px #000 );
 }
-
 .word{
-top: 1140px;
-left: 6.5%;
+left: 8%;
+top: 87%;
 color:white;
 font-style: italic;
 font-size: 40px;
@@ -47,14 +48,12 @@ position: absolute;
 letter-spacing: 11px;
 padding: 10px;
 text-shadow: 0 0 12px #000;
--webkit-filter: drop-shadow( -5px -5px 5px #000 );
- filter: drop-shadow( -5px -5px 5px #000 );
 }
 .navbar{
 position: absolute;
-top: 1172px;
+top: 93%;
 right: 4%;
-padding: 15px 8px 8px 8px;
+padding: 8px;
 }
 a{
 text-decoration: none;
@@ -70,6 +69,7 @@ letter-spacing: 2px;
 position: absolute;
 font-size: 34px;
 }
+
 .hide{
 overflow: hidden;
 }
