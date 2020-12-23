@@ -25,7 +25,7 @@ text-shadow: 0 0 12px #000;
 position: absolute;
 color: white;
 font-size: 40px;
-top: 565px;
+top: 75%;
 left: 0.5%;
 font-family: 'Megrim', cursive;
 font-style: italic;
@@ -38,7 +38,7 @@ text-shadow: 0 0 12px #000;
 
 .word{
 left: 6.5%;
-top: 625px;
+top: 84%;
 color:white;
 font-style: italic;
 font-size: 40px;
@@ -52,7 +52,7 @@ text-shadow: 0 0 12px #000;
 }
 .navbar{
 position: absolute;
-top: 650px;
+top: 93%;
 right: 4%;
 padding: 15px 8px 8px 8px;
 }
