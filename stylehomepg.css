@@ -133,17 +133,17 @@ display: inline-block;
 }
 @media screen and (max-width: 1380px){
 .home{
-height: 810px;
-width: 1300px;
+height: 785px;
+width: 1320px;
 }
 .h2{
-top: 500px;
+top: 600px;
 }
 .word{
-top: 555px;	
+top: 655px;	
 }
 .navbar{
-top: 600px;
+top: 670px;
 }
 }	
 @media screen and (max-width: 650px){
