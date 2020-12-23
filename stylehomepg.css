@@ -11,7 +11,7 @@ background-repeat: no-repeat;
 .h1{
 letter-spacing: 4px;
 position: absolute;
-top: 2.5%;
+top: 5px;
 left: 6%;
 color: white;
 font-style: italic;
@@ -126,29 +126,6 @@ display: inline-block;
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(158, 154, 139,0.8);
-}
-
-@media screen and (max-width: 1380px){
-.h2{
-top: 500px;
-}
-.word{
-top: 555px;	
-}
-.navbar{
-top: 600px;
-}
-}
-@media screen and (max-width: 1520px){
-.h2{
-top: 515px;
-}
-.word{
-top: 575px;	
-}
-.navbar{
-top: 612px;
-}
 }
 	
 @media screen and (max-width: 650px){
