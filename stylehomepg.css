@@ -133,8 +133,8 @@ display: inline-block;
 }
 @media screen and (max-width: 1380px){
 .home{
-height: 730px;
-width: 1328px;
+height: 710px;
+width: 1318px;
 }
 .h2{
 top: 580px;
@@ -144,7 +144,7 @@ top: 635px;
 }
 .navbar{
 top: 665px;
-right: 5%;
+right: 6%;
 }
 .h1{
 top: 60px;
