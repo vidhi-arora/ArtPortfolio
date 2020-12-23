@@ -133,8 +133,8 @@ display: inline-block;
 }
 @media screen and (max-width: 1380px){
 .home{
-height: 711px;
-width: 1308px;
+height: 712px;
+width: 1290px;
 }
 .h2{
 top: 580px;
@@ -161,4 +161,30 @@ top: 550px;
 top: 625px;
 }
 }
-
+@media screen and (max-width: 520px){
+.home{
+height: 645px;
+width: 465px;
+}
+.navbar{
+top: 93%;
+right: 6%;
+}
+a{
+font-size: 15px;
+padding: 5px;
+}
+.h2{
+font-size: 32px;
+letter-spacing: 7px;
+top: 520px;
+}
+.word{
+font-size: 32px;
+letter-spacing: 7px;
+top: 565px;
+}
+.intro-text{
+font-size: 1rem;
+ }
+}
