@@ -133,8 +133,8 @@ display: inline-block;
 }
 @media screen and (max-width: 1380px){
 .home{
-height: 770px;
-width: 1325px;
+height: 750px;
+width: 1328px;
 }
 .h2{
 top: 600px;
@@ -143,10 +143,10 @@ top: 600px;
 top: 655px;	
 }
 .navbar{
-top: 670px;
+top: 680px;
 }
 .h1{
- transform: translateY{2%};
+top: 60px;
 }
 }	
 @media screen and (max-width: 650px){
