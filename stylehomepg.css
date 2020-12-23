@@ -133,8 +133,8 @@ display: inline-block;
 }
 @media screen and (max-width: 1380px){
 .home{
-height: 730px;
-width: 1328px;
+height: 720px;
+width: 1318px;
 }
 .h2{
 top: 600px;
@@ -184,6 +184,6 @@ letter-spacing: 7px;
 top: 565px;
 }
 .intro-text{
-font-size: 30px;
+font-size: 1rem;
  }
 }
