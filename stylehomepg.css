@@ -123,18 +123,18 @@ display: inline-block;
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(120, 106, 93,0.9);
+  background: black;
   border-radius: 4px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(158, 154, 139,0.8);
+  background: black;
 }
 @media screen and (max-width: 1380px){
 .home{
-height: 710px;
-width: 1318px;
+height: 711px;
+width: 1308px;
 }
 .h2{
 top: 580px;
