@@ -24,6 +24,8 @@ font-style: italic;
 font-size: 60px;
 font-family: 'Kaushan Script', cursive;
 text-shadow: 0 0 12px #000;
+-webkit-filter: drop-shadow( -5px -5px 5px #000 );
+filter: drop-shadow( -5px -5px 5px #000 );
 }
 .h2{
 position: absolute;
@@ -50,6 +52,8 @@ position: absolute;
 letter-spacing: 11px;
 padding: 10px;
 text-shadow: 0 0 12px #000;
+-webkit-filter: drop-shadow( -5px -5px 5px #000 );
+ filter: drop-shadow( -5px -5px 5px #000 );
 }
 .navbar{
 position: absolute;
@@ -129,17 +133,8 @@ display: inline-block;
 }
 @media screen and (max-width: 1366px){
 .home{
-height: 800px;
-width: 1400px;
-}
-.h2{
-top: 500px;
-}
-.word{
-top: 555px;	
-}
-.navbar{
-top: 600px;
+height: 1000px;
+width: 1300px;
 }
 }
 @media screen and (max-width: 1520px){
