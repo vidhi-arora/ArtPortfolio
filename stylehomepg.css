@@ -77,7 +77,7 @@ font-size: 34px;
 }
 
 .hide{
-overflow: hidden;
+overflow-y: hidden;
 }
 .intro{
 background: rgb(0,0,0,0.95);
