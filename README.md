@@ -1,2 +1,3 @@
 # Art Portfolio of VIDHI ARORA
-# Using HTML, CSS & JS
+# HTML | CSS | JS
+ARCHIVED REPO
