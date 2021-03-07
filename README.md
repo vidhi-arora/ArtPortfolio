@@ -1,4 +1,4 @@
 
-Art Portfolio of VIDHI ARORA
-# HTML | CSS | JS
+# Art Portfolio | VIDHI ARORA
+ HTML | CSS | JS
 ARCHIVED REPO
