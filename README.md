@@ -1,5 +1,4 @@
 
-# Art Portfolio | VIDHI ARORA
-HTML | CSS | JS
- 
-ARCHIVED REPO
+# Art Portfolio
+
+An art portfolio website developed using HTML, CSS and JS
