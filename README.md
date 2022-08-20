@@ -1,4 +1,5 @@
 
 # Art Portfolio
 
-An art portfolio website developed using HTML, CSS and JS
+This is my Art Portfolio website developed using HTML, CSS and JavaScript
+An engineering exploration project under web development.
